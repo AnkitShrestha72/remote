@@ -1,57 +1,115 @@
- Body{
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center; 
-   display: flex; 
-   justify-content: center; 
-   align-items: center; 
-   min-height: 100vh;
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   border-radius: 500px;
   box-shadow: 10px 10px 38px 0 black;
-  background: grey
-}; 
+  background: grey;
+}
 
-.buttont{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: aqua;
-  color: antiquewhite;
-  
- };
-
- /* .app-container{
-  height: 30em;
-  width: 30em;
-  margin: auto;
+.app-container {
+  height: 70vh;
+  width: 100%;
   background-color: black;
-  border-radius: 3em;
-  margin-top: 2em;
+  border-radius: 50px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
+}
+
+/* button {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: red;
+  background: rgb(243, 213, 213);
+  border: 5px #000000 solid;
+  border-radius: 50%;
 } */
 
-.app-container{
- background-color: red;
- color: white;
+.cold {
+  background: #b22222;
+}
 
-} 
+.hot {
+  background: #c21807;
+}
 
+.superhot {
+  background: #8d021f;
+}
 
-.first{
+button:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.butplus {
+  font-weight: bold;
+  height: 8vh;
+  width: 20%;
+  border-radius: 50%;
+  font-size: x-large;
+  color: red;
+}
+
+.butminus {
+  font-size: x-large;
+  font-weight: bold;
+  height: 8vh;
+  width: 20%;
+  border-radius: 50%;
+  color: red;
+}
+
+.first {
   color: white;
- 
- };
+}
 
- .temperature-display-container h1{
+.temperature-display-container {
+  display: flex;
+  justify-content:center ;
   margin: auto;
   align-items: center;
   height: 70%;
-  width: 20em;
+  width: 20rem;
+  padding: auto;
+}
+
+.temperature-display {
   display: flex;
-  background-color: red;
-  height: 10em;
-  color: white;
- };
+  border-radius: 50%;
+  color: red;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+}
+.temp{
+ width: 85%;
+  height: 70%;
+  /* margin-right: 0.5em; */
+  /* width: 85%; */
+}
 
-
-
-
+.tempdisplaycolor {
+  height: 200px;
+  width: 300px;
+  border-radius: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
