@@ -1,0 +1,57 @@
+ Body{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   min-height: 100vh;
+  border-radius: 500px;
+  box-shadow: 10px 10px 38px 0 black;
+  background: grey
+}; 
+
+.buttont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: aqua;
+  color: antiquewhite;
+  
+ };
+
+ /* .app-container{
+  height: 30em;
+  width: 30em;
+  margin: auto;
+  background-color: black;
+  border-radius: 3em;
+  margin-top: 2em;
+  text-align: center;
+} */
+
+.app-container{
+ background-color: red;
+ color: white;
+
+} 
+
+
+.first{
+  color: white;
+ 
+ };
+
+ .temperature-display-container h1{
+  margin: auto;
+  align-items: center;
+  height: 70%;
+  width: 20em;
+  display: flex;
+  background-color: red;
+  height: 10em;
+  color: white;
+ };
+
+
+
+
